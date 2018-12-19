@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = function(app) {
     // For anything else, render the html page
     app.get("*", function(req, res) {
